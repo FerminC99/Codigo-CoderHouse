@@ -70,6 +70,15 @@
     padding: 50px;
 }
 
+.cajasn {
+    border:solid;
+    max-width: 700px;
+    width: 90%;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 50px 20px;
+}
 .divredes{
     width: 90%;
 }
@@ -110,8 +119,17 @@ ul{
     }
 
 .imagensobrenos {
-    float: right;
+    text-align-last: center;
+    padding-top: 50px;
+    width: 75vw;
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;
+    width: 90%;
+   
 }
+
+   
 .widhtsobrenos{
     max-width: 50%;
 }
@@ -137,7 +155,7 @@ td, th {
 li {
     float: left;
     text-align: center;
-    width: 20em;
+    
 }
 .productos{
     display: flex;
@@ -215,7 +233,6 @@ li {
         .productos figure {
                         width: 100%;
                              }
-    
 
       }
       

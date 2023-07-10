@@ -29,16 +29,16 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link" href="contactos.html" target="_parent">Contacto</a>
+                <a class="nav-link" href="pages/contactos.html" target="_parent">Contacto</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="nosotros.html" target="_parent">Nosotros</a>
+                <a class="nav-link" href="pages/nosotros.html" target="_parent">Nosotros</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="guiadetalles.html" target="_parent">Guia de Talles</a>
+                <a class="nav-link" href="pages/guiadetalles.html" target="_parent">Guia de Talles</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="productos.html" target="_parent">Productos</a>
+                <a class="nav-link" href="pages/productos.html" target="_parent">Productos</a>
               </li>
             </ul>
             <form class="d-flex">
@@ -68,12 +68,47 @@
                 </option>
             </select>
         </aside>
-       
-         <section class="productos productosfigure productosfigureimg productosfigurebutton">
-                 <figure>
-                   <img class="imgprod" src="imagenes/camiseta 1.jpg" alt="Camiseta" >
-                   <img class="imgprod" src="imagenes/short 1.jpg" alt="Short" >
-                 </figure>
+        <section id="carouselCamiseta" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="imagenes/camiseta 1.jpg" class="ww100" alt="camisetaArgentina">
+            </div>
+            <div class="carousel-item">
+              <img src="imagenes/camiseta compra 1.jpg" class="ww100" alt="camisetaBoca">
+            </div>
+            <div class="carousel-item">
+              <img src="imagenes/camiseta compra 2.jpg" class="ww100" alt="camisetaRiver">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselCamiseta" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselCamiseta" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </section>
+        <section id="carouselShort" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="imagenes/short 1.jpg" class="ww100" alt="ShortArgentina">
+            </div>
+            <div class="carousel-item">
+              <img src="imagenes/short-de-boca-basquet-adidas-azul-100020gh6835001-1.jpg" class="ww100" alt="ShortBoca">
+            </div>
+            <div class="carousel-item">
+              <img src="imagenes/short-de-river-basquet-adidas-alternativo-rojo-100020hd4735001-1.jpg" class="ww100" alt="ShortRiver">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselShort" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselShort" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </section>
 
         <section>

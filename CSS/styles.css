@@ -29,7 +29,9 @@
     float: right;
 }
 
-
+.ww100 {
+    width: 100vw;
+}
 .botonera{
     display: flex;
     justify-content: center;
@@ -56,7 +58,7 @@
     min-height: 500px;
 }
 
-.body {
+.body { 
     background-color: rgb(237, 123, 42);
 }
 
@@ -229,10 +231,12 @@ li {
         .gridindex{ grid-template-columns: repeat(2, 1fr); }
         .ulredes{ flex-direction: column;
             text-align-last: start;
+            width: 90%;
         }
         .productos figure {
-                        width: 100%;
+                        width: 90%;
                              }
+        
 
       }
       

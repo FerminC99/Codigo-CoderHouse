@@ -223,7 +223,11 @@ li {
     .botonerabs a {
         color: rgb(255, 145, 0);
     }
-
+    
+    figure {
+        background-color: rgb(255, 255, 255);
+    }
+    
 
 
 

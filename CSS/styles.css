@@ -1,67 +1,36 @@
-
-.titulo {
-  /*  padding-left: 150px;
-  width: 400px;*/
-  display: inline-flex;
-  width: 33.33%;
-}
+/* Color titulo */
 .blanco{
     color: rgb(255, 255, 255);
 }
-.input{
-    width: 33.33%;
-}
-.divtitulo{
-    width: 33%;
-    text-align: center;
-}
-.div1{
-    width: 33%;
-}
-.navbuttondiv{
-    width: 25%;
-}
-.navfooterbuttondiv{
-    width: 24%;
-}
-.logo {
-    width: 75px;
-    float: right;
-}
-
-.ww100 {
-    width: 100vw;
-}
-.botonera{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: rgb(253, 251, 251);
-    padding: 5px 20px;
-    border-radius: 20px;
-}
-.botonerafooter{
-    display: flex;
-    justify-content: center;
-    padding: 5px 20px;
-    border-radius: 20px;
-    
-}
-
-.divfooter{
-    border: hidden;
-    background: border-box;
-}
+/* main */
 .main{
   
     min-width: 100%;
     min-height: 500px;
 }
-
+/* body */
 .body { 
     background-color: rgb(237, 123, 42);
 }
+/* index */
+.gridindex
+{
+    display: grid;
+    width: 99%;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 20%;
+}
+.contenedorderecha {
+    display: flex;
+    justify-content: end;
+    text-align: end;
+    margin-left: auto;
+}
+.ww100 {
+    width: 100vw;
+}
 
+/* cajas y mapa seccion contactos */
 .divsobrenosotros {
     border:solid;
     max-width: 50%;
@@ -71,7 +40,13 @@
     font-size: xx-large;
     padding: 50px;
 }
-
+.floatmapa {
+    display: grid;
+    float: right;
+    text-align-last: center;
+    width: 40%;
+}
+/* cajas y foto seccion nosotros */
 .cajasn {
     border:solid;
     max-width: 700px;
@@ -81,83 +56,29 @@
     margin-top: 50px;
     padding: 50px 20px;
 }
-.divredes{
-    width: 90%;
-}
-
-.ulredes {
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-    width: 100%;
-    max-height: 500px;
-    justify-content: space-around;
-    margin: 20px 50px;
-}
-
-
-ul{
-    list-style-type: none; 
-}
-
-.contenedorderecha {
-    display: flex;
-    justify-content: end;
-    text-align: end;
-    margin-left: auto;
-}
-
-.contenedorcentro {
-    display: inline-flex;
-    justify-content: center;
-    }
-
-.publicidadindex {
-    float: right;
-}
 .colorcajas {
     border: solid;
         background-color:rgb(255, 255, 255)
     }
 
-.imagensobrenos {
-    text-align-last: center;
-    padding-top: 50px;
-    width: 75vw;
-    max-width: 1000px;
-    min-width: 320px;
-    margin: auto;
-    width: 90%;
-   
-}
-
-   
+ .imagensobrenos {
+        text-align-last: center;
+        padding-top: 50px;
+        width: 75vw;
+        max-width: 1000px;
+        min-width: 320px;
+        margin: auto;
+        width: 90%;
+       
+    }
 .widhtsobrenos{
-    max-width: 50%;
-}
-.floatmapa {
-    display: grid;
-    float: right;
-    text-align-last: center;
-}
+        max-width: 50%;
+    }
 
-.tabladetalles {
-    border: solid
-}
-td, th {
-    border: 2px solid black;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-  
-    ;
-}
 
-li {
-    float: left;
-    text-align: center;
-    
+/* seccion productos */
+figure {
+    background-color: rgb(255, 255, 255);
 }
 .productos{
     display: flex;
@@ -191,29 +112,15 @@ li {
         {
             width: 75%;
         }
-
-        .indexpublidimen
-        {
-            width: 50%;
-            height: 315px;
-        }
-          
-
-        .gridindex
-    {
-        display: grid;
-        width: 99%;
-        grid-template-columns: repeat(2, 1fr);
-        column-gap: 20%;
-    }
-
-    .gridcontactos {
-        display: grid;
-        justify-items: flex-end;
-
-    }
-
-
+ /* tabla de talles */
+td, th {
+    border: 2px solid rgb(0, 0, 0);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+/* NavBar */
     .botonerabs {
         background-color: rgb(255, 255, 255);
     }
@@ -223,14 +130,23 @@ li {
     .botonerabs a {
         color: rgb(255, 145, 0);
     }
-    
-    figure {
-        background-color: rgb(255, 255, 255);
+   
+/* footer */
+    .ulredes {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        width: 100%;
+        max-height: 500px;
+        justify-content: space-around;
+        margin: 20px 50px;
     }
-    
 
+    .divredes{
+        width: 90%;
+    }
 
-
+    /* medias */
     @media (width < 700px) {
         .gridindex{ grid-template-columns: repeat(2, 1fr); }
         .ulredes{ flex-direction: column;

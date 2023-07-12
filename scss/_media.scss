@@ -1,0 +1,12 @@
+@media (width < 700px) {
+    .gridindex{ grid-template-columns: repeat(2, 1fr); }
+    .ulredes{ flex-direction: column;
+        text-align-last: start;
+        width: 90%;
+    }
+    .productos figure {
+                    width: 90%;
+                         }
+    
+  }
+  

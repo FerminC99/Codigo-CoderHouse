@@ -1,3 +1,81 @@
-//imports
+//imports//
 @import "_variables";
+@import "_commons";
+@import "_navbar";
+@import "_productos";
+
+/* index */
+.gridindex
+{
+    display: grid;
+    width: 99%;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 20%;
+}
+.contenedorderecha {
+    display: flex;
+    justify-content: end;
+    text-align: end;
+    margin-left: auto;
+}
+.ww100 {
+    width: 100vw;
+}
+
+/* cajas y mapa seccion contactos */
+.divsobrenosotros {
+    border:solid;
+    max-width: 50%;
+    max-height: 900px;
+    justify-content: center;
+    margin: 42px 50px;
+    font-size: xx-large;
+    padding: 50px;
+}
+.floatmapa {
+    display: grid;
+    float: right;
+    text-align-last: center;
+    width: 40%;
+}
+/* cajas y foto seccion nosotros */
+.cajasn {
+    border:solid;
+    max-width: 700px;
+    width: 90%;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 50px 20px;
+}
+ .imagensobrenos {
+        text-align-last: center;
+        padding-top: 50px;
+        width: 75vw;
+        max-width: 1000px;
+        min-width: 320px;
+        margin: auto;
+        width: 90%;
+       
+    }
+.widhtsobrenos{
+        max-width: 50%;
+    }
+
+
+
+//footer//
+.ulredes {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    width: 100%;
+    max-height: 500px;
+    justify-content: space-around;
+    margin: 20px 50px;
+}
+
+.divredes{
+    width: 90%;
+}
 

@@ -1,0 +1,35 @@
+//Seccion Productos//
+.productos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+     figure{
+        width: 30%;
+        border: solid rgb(8, 8, 8) 1px;
+        border-radius: 5px;
+        margin-bottom: 30px;
+        padding: 0 20px;
+    }
+         figure img{
+            display: block;
+            margin: auto;
+        }
+       
+         figure button{
+            border: none;
+            padding: 6px 30px;
+            background-color: rgb(255, 255, 255);
+            border-radius: 3px;
+            color: rgb(0, 0, 0);
+            text-align: center;
+            margin-bottom: 20px;
+            width: 100%;
+        }
+       
+    }
+         .imgprod
+        {
+            width: 75%;
+        }

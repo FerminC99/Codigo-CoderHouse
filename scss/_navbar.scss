@@ -1,0 +1,15 @@
+.botonerabs {
+    background-color:$secondarycolor;
+    
+    img {
+    width: 100px;
+}
+    a {
+    color:$maincolor;
+    &:hover {
+        color: blue;
+    }
+}
+}
+
+ 

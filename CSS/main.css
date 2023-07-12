@@ -1,0 +1,157 @@
+.body {
+  background-color: rgb(255, 153, 20);
+}
+
+.main {
+  min-width: 100%;
+  min-height: 500px;
+}
+
+p {
+  color: rgb(0, 0, 0);
+  padding: 0 10px;
+}
+
+h1 {
+  color: rgb(0, 0, 0);
+}
+
+h2 {
+  color: rgb(0, 0, 0);
+}
+
+.colorcajas {
+  border: solid;
+  background-color: rgb(255, 255, 255);
+}
+
+td, th {
+  border: 2px solid rgb(0, 0, 0);
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.botonerabs {
+  background-color: rgb(255, 255, 255);
+}
+.botonerabs img {
+  width: 100px;
+}
+.botonerabs a {
+  color: rgb(255, 153, 20);
+}
+.botonerabs a:hover {
+  color: blue;
+}
+
+.productos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.productos figure {
+  width: 30%;
+  border: solid rgb(8, 8, 8) 1px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  padding: 0 20px;
+}
+.productos figure img {
+  display: block;
+  margin: auto;
+}
+.productos figure button {
+  border: none;
+  padding: 6px 30px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 3px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.imgprod {
+  width: 75%;
+}
+
+/* index */
+.gridindex {
+  display: grid;
+  width: 99%;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 20%;
+}
+
+.contenedorderecha {
+  display: flex;
+  justify-content: end;
+  text-align: end;
+  margin-left: auto;
+}
+
+.ww100 {
+  width: 100vw;
+}
+
+/* cajas y mapa seccion contactos */
+.divsobrenosotros {
+  border: solid;
+  max-width: 50%;
+  max-height: 900px;
+  justify-content: center;
+  margin: 42px 50px;
+  font-size: xx-large;
+  padding: 50px;
+}
+
+.floatmapa {
+  display: grid;
+  float: right;
+  text-align-last: center;
+  width: 40%;
+}
+
+/* cajas y foto seccion nosotros */
+.cajasn {
+  border: solid;
+  max-width: 700px;
+  width: 90%;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 50px 20px;
+}
+
+.imagensobrenos {
+  text-align-last: center;
+  padding-top: 50px;
+  width: 75vw;
+  max-width: 1000px;
+  min-width: 320px;
+  margin: auto;
+  width: 90%;
+}
+
+.widhtsobrenos {
+  max-width: 50%;
+}
+
+.ulredes {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  width: 100%;
+  max-height: 500px;
+  justify-content: space-around;
+  margin: 20px 50px;
+}
+
+.divredes {
+  width: 90%;
+}
+
+/*# sourceMappingURL=main.css.map */

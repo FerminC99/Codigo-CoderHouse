@@ -1,25 +1,22 @@
-.animation2 {
+.p1 {
   color: orangered;
-  animation-name: animation;
-  animation-duration: 10s;
+  text-transform: capitalize;
+  text-decoration: underline;
+  line-height: 1.2;
 }
 
-.animation3 {
-  color: orange;
-  animation-name: animation;
-  animation-duration: 5s;
+.p2 {
+  color: rgb(205, 0, 0);
+  text-transform: capitalize;
+  text-decoration: underline;
+  line-height: 1.2;
 }
 
-.animation4 {
-  color: darkorange;
-  animation-name: animation;
-  animation-duration: 15s;
-}
-
-.animation5 {
-  color: chocolate;
-  animation-name: animation;
-  animation-duration: 2s;
+.p3 {
+  color: green;
+  text-transform: capitalize;
+  text-decoration: none;
+  line-height: 1.2;
 }
 
 .body {
@@ -63,6 +60,10 @@ td, th {
   padding-right: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+.centro {
+  text-align: center;
 }
 
 @keyframes animationButton {
@@ -182,13 +183,6 @@ td, th {
   padding: 50px;
 }
 
-.floatmapa {
-  display: grid;
-  float: right;
-  text-align-last: center;
-  width: 40%;
-}
-
 /* cajas y foto seccion nosotros */
 .cajasn {
   border: solid;
@@ -218,7 +212,7 @@ td, th {
   display: flex;
   flex-direction: row;
   list-style: none;
-  width: 100%;
+  width: 90%;
   max-height: 500px;
   justify-content: space-around;
   margin: 20px 50px;

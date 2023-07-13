@@ -1,22 +1,18 @@
-@mixin animation ($color,$name, $duration) 
-{
-    color:$color;
-    animation-name: $name;
-    animation-duration:$duration;
-}
 
-.animation2 {
-    @include animation(orangered,animation ,10s );
-}
+@mixin textos ($color, $texttransform, $textdecoration, $lineheight)
+ {
+    color: $color;
+    text-transform:$texttransform;
+    text-decoration:$textdecoration;
+    line-height:$lineheight;
+ }
 
-.animation3 {
-    @include animation(orange,animation ,5s );
-}
-
-.animation4 {
-    @include animation(darkorange,animation ,15s );
-}
-.animation5 {
-    @include animation(chocolate,animation ,2s );
-}
-
+ .p1{
+    @include textos(orangered,capitalize,underline,1.2);
+ }
+ .p2 {
+    @include textos(rgb(205, 0, 0),capitalize,underline,1.2);
+ }
+ .p3 {
+    @include textos(green,capitalize ,none ,1.2 );
+ }

@@ -5,8 +5,6 @@
     animation-duration:$duration;
 }
 
-
-
 .animation2 {
     @include animation(orangered,animation ,10s );
 }
@@ -21,3 +19,4 @@
 .animation5 {
     @include animation(chocolate,animation ,2s );
 }
+

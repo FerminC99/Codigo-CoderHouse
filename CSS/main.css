@@ -1,3 +1,27 @@
+.animation2 {
+  color: orangered;
+  animation-name: animation;
+  animation-duration: 10s;
+}
+
+.animation3 {
+  color: orange;
+  animation-name: animation;
+  animation-duration: 5s;
+}
+
+.animation4 {
+  color: darkorange;
+  animation-name: animation;
+  animation-duration: 15s;
+}
+
+.animation5 {
+  color: chocolate;
+  animation-name: animation;
+  animation-duration: 2s;
+}
+
 .body {
   background-color: rgb(255, 153, 20);
 }
@@ -39,6 +63,35 @@ td, th {
   padding-right: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+@keyframes animationButton {
+  0% {
+    transform: scale(0.1);
+    background-color: coral;
+  }
+  25% {
+    transform: scale(0.3);
+    background-color: orange;
+  }
+  50% {
+    transform: scale(0.5);
+    background-color: darkorange;
+  }
+  75% {
+    transform: scale(0.7);
+    background-color: chocolate;
+  }
+  100% {
+    transform: scale(0.9);
+    background-color: orangered;
+  }
+}
+.animation {
+  animation-name: animationButton;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
 }
 
 .botonerabs {
@@ -173,21 +226,6 @@ td, th {
 
 .divredes {
   width: 90%;
-}
-
-/* animaciones */
-@keyframes animationButton {
-  0% {transform: scale(0.1);background-color: coral;}
-  25% {transform: scale(0.3); background-color: orange;}
-  50%{transform: scale(0.5); background-color: darkorange;}
-  75% {transform: scale(0.7);background-color: chocolate;}
-  100% {transform: scale(0.9); background-color: orangered;}
-}
-.animation {
-  animation-name: animationButton;
-  animation-duration: 5s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease;
 }
 
 /*# sourceMappingURL=main.css.map */

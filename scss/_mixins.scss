@@ -6,3 +6,18 @@
 }
 
 
+
+.animation2 {
+    @include animation(orangered,animation ,10s );
+}
+
+.animation3 {
+    @include animation(orange,animation ,5s );
+}
+
+.animation4 {
+    @include animation(darkorange,animation ,15s );
+}
+.animation5 {
+    @include animation(chocolate,animation ,2s );
+}

@@ -58,6 +58,7 @@ td, th {
   border-radius: 5px;
   margin-bottom: 30px;
   padding: 0 20px;
+  background-color: darkorange;
 }
 .productos figure img {
   display: block;
@@ -66,13 +67,21 @@ td, th {
 .productos figure button {
   border: none;
   padding: 6px 30px;
-  background-color: rgb(255, 255, 255);
+  background-color:chocolate;
   border-radius: 3px;
-  color: rgb(0, 0, 0);
+  color: rgb(248, 245, 245);
+  font-size: 20px;
   text-align: center;
   margin-bottom: 20px;
   width: 100%;
+  transition: .3s;
+
 }
+.productos figure button:hover{
+  transform: scale(0.9);
+  transition: all 1s;
+}
+
 
 .imgprod {
   width: 75%;
@@ -166,5 +175,21 @@ td, th {
 .divredes {
   width: 90%;
 }
+
+/* animaciones */
+@keyframes animationButton {
+  0% {transform: scale(0.1);background-color: coral;}
+  25% {transform: scale(0.3); background-color: orange;}
+  50%{transform: scale(0.5); background-color: darkorange;}
+  75% {transform: scale(0.7);background-color: chocolate;}
+  100% {transform: scale(0.9); background-color: orangered;}
+}
+.animation {
+  animation-name: animationButton;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+}
+
 
 /*# sourceMappingURL=main.css.map */

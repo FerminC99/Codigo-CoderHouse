@@ -20,9 +20,17 @@ h2 {
   color: rgb(0, 0, 0);
 }
 
-.colorcajas {
+.colorcajas, .colorcajas-3, .colorcajas-2 {
   border: solid;
   background-color: rgb(255, 255, 255);
+}
+
+.colorcajas-2 {
+  background-color: orangered;
+}
+
+.colorcajas-3 {
+  background-color: chocolate;
 }
 
 td, th {
@@ -58,7 +66,6 @@ td, th {
   border-radius: 5px;
   margin-bottom: 30px;
   padding: 0 20px;
-  background-color: darkorange;
 }
 .productos figure img {
   display: block;
@@ -67,21 +74,13 @@ td, th {
 .productos figure button {
   border: none;
   padding: 6px 30px;
-  background-color:chocolate;
+  background-color: rgb(255, 255, 255);
   border-radius: 3px;
-  color: rgb(248, 245, 245);
-  font-size: 20px;
+  color: rgb(0, 0, 0);
   text-align: center;
   margin-bottom: 20px;
   width: 100%;
-  transition: .3s;
-
 }
-.productos figure button:hover{
-  transform: scale(0.9);
-  transition: all 1s;
-}
-
 
 .imgprod {
   width: 75%;
@@ -190,6 +189,5 @@ td, th {
   animation-iteration-count: infinite;
   animation-timing-function: ease;
 }
-
 
 /*# sourceMappingURL=main.css.map */

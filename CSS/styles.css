@@ -162,4 +162,18 @@ td, th {
 
       }
       
+      /* animaciones */
+@keyframes animationButton {
+    0% {transform: scale(0.1);background-color: coral;}
+    25% {transform: scale(0.3); background-color: orange;}
+    50%{transform: scale(0.5); background-color: darkorange;}
+    75% {transform: scale(0.7);background-color: chocolate;}
+    100% {transform: scale(0.9); background-color: orangered;}
+  }
+  .animation {
+    animation-name: animationButton;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+  }
       

@@ -1,1 +1,8 @@
-@mixin animacionbutton 
+@mixin animation ($color,$name, $duration) 
+{
+    color:$color;
+    animation-name: $name;
+    animation-duration:$duration;
+}
+
+

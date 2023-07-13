@@ -23,6 +23,15 @@ h2 {
     border: solid;
         background-color: $secondarycolor;
     }
+    .colorcajas-2 {
+        @extend .colorcajas;
+        background-color: $colorcaja2;
+    }
+    .colorcajas-3 {
+        @extend .colorcajas;
+        background-color: $colorcaja3;
+    }
+    
 
 //tabla de talles//
 td, th {

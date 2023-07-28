@@ -77,3 +77,16 @@
     width: 90%;
 }
 
+.conteiner {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.button404 {
+    background-color: chocolate;
+}
